@@ -123,53 +123,17 @@ footer {
 }
 
 
-.photos img {
+ img {
     position: relative;
-    margin-left: 130px;
+    margin-left: 90px;
+    overflow: hidden;
+    transition-duration: 1s;
+    transition-property: transform;
 }
 
-.photos img:nth-of-type(1) {
-    left: 30px;
-    top: 30px;
-    -webkit-transform: rotate(5deg);
-    -moz-transform: rotate(5deg);
-    -o-transform: rotate(5deg);
-    transform: rotate(5deg);
-}
-
-.photos img:nth-of-type(2) {
-    left: 30px;
-    top: 30px;
-    -webkit-transform: rotate(-10deg);
-    -moz-transform: rotate(-10deg);
-    -o-transform: rotate(-10deg);
-    transform: rotate(-10deg);
-}
-
-.photos img:nth-of-type(3) {
-    left: 30px;
-    top: 30px;
-    -webkit-transform: rotate(7deg);
-    -moz-transform: rotate(7deg);
-    -o-transform: rotate(7deg);
-    transform: rotate(7deg);
-}
-
-.photos img:nth-of-type(4) {
-    left: 30px;
-    top: 30px;
-    -webkit-transform: rotate(-3deg);
-    -moz-transform: rotate(-3deg);
-    -o-transform: rotate(-3deg);
-    transform: rotate(-3deg);
-}
-
-.photos img:hover {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1);
-    z-index: 5;
+img:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
 }
 
 </style>
@@ -203,6 +167,7 @@ footer {
 
   <div class="photos">
     <a href="http://caseytrees.org/wp-content/uploads/2016/09/Fall2016_Events.html" target="_blank"> <img src="img05.png" /> </a>
+    <a href="http://caseytrees.maps.arcgis.com/apps/webappviewer/index.html?id=f0d33c53e34a47c3b4f0c1fe9a566fc6" target="_blank"> <img src="img06.png" /> </a>
     <a href="https://rephensoss.cartodb.com/viz/51744eae-f1f0-11e5-90ba-0e5db1731f59/embed_map" target="_blank"> <img src="img01.png" /> </a>
     <a href="http://caseytrees.org/wp-content/uploads/2016/04/Neighborhood.html" target="_blank"> <img src="img02.png" /> </a>
     <a href="http://caseytrees.org/leaflet/ways-to-celebrate-national-park-week/" target="_blank"> <img src="img03.png" /> </a>
