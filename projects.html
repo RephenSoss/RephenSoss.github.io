@@ -5,8 +5,8 @@
 <style>
 
 body {
-  margin: 0;
   background: url("images/google-earth-view-1435.jpg");
+  background-color: white;
   background-repeat: repeat-y;
   background-position: center;
   background-attachment: fixed;
@@ -78,22 +78,18 @@ div.contentt {
     }
 }
 
+.img2 {
+
+  display: block;
+}
 
 
 p {
   font: Courier New;
-  text-align: left;
-  border: 2px solid black;
-  border-radius: 5px;
-  overflow: auto;
-  background-position: center;
-  background-attachment: fixed;
-  background-color: white;
-  margin-left: 415px;
-  margin-right: 75px;
-  margin-top: auto;;
+  font-size: 150%;
+  text-align: center;
+  margin: auto;
   padding: 20px;
-  opacity: 0.8;
   max-width: 800px;
 
 
@@ -125,16 +121,38 @@ footer {
 
  img {
     position: relative;
-    margin-left: 90px;
-    overflow: hidden;
-    transition-duration: 1s;
-    transition-property: transform;
-}
 
-/*img:hover {*/
-/*    transform: rotate(360deg);*/
-/*    -webkit-transform: rotate(360deg);*/
-/*}*/
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 200px;
+
+
+  }
+
+  iframe {
+    overflow: hidden;
+    width: 85%;
+    margin-left: 120px;
+
+
+  }
+
+  h3 {
+  color: white;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 20px;
+  opacity: 0.5;
+  max-width: 50%;
+  }
+
 
 </style>
 </head>
@@ -164,14 +182,40 @@ footer {
 <div class= "projects.html">
 
 <body>
+<div>
+  <p>Web Based<p/>
+</div>
 
-  <div class="photos">
+
+    <div>
+        <iframe height="450" frameborder="2" src="https://rephensoss.carto.com/viz/812f3cba-7b81-11e6-aeed-0e233c30368f/embed_map" ></iframe>
+
+    </div>
+
+
+
+  <div class="img">
+    
+    <h3>Casey Tree's Fall Events</h3>
     <a href="http://caseytrees.org/wp-content/uploads/2016/09/Fall2016_Events.html" target="_blank"> <img src="images/img05.png" /> </a>
+    <div>
+          <h3>itree Eco Results</h3>
+   </div>
     <a href="http://caseytrees.maps.arcgis.com/apps/webappviewer/index.html?id=f0d33c53e34a47c3b4f0c1fe9a566fc6" target="_blank"> <img src="images/img06.png" /> </a>
+         <h3>Casey Tree's Planting Time Lapse</h3>
+
     <a href="https://rephensoss.cartodb.com/viz/51744eae-f1f0-11e5-90ba-0e5db1731f59/embed_map" target="_blank"> <img src="images/img01.png" /> </a>
+         <h3>Washington DC Canopy Assessment</h3>
+
     <a href="http://caseytrees.org/wp-content/uploads/2016/04/Neighborhood.html" target="_blank"> <img src="images/img02.png" /> </a>
+         <h3>Casey Tree's Planting in National Parks</h3>
+
     <a href="http://caseytrees.org/leaflet/ways-to-celebrate-national-park-week/" target="_blank"> <img src="images/img03.png" /> </a>
+         <h3>Park Finder</h3>
+
     <a href="http://caseytrees.org/wp-content/uploads/2016/04/ParkSquare_Working.html" target="_blank"> <img src="images/img04.png" /> </a>
+
+    
 
   </div>
 
@@ -179,14 +223,21 @@ footer {
 
 </div>
 
+<div>
+
+
+</div>
+
 <footer>
   <div class="social">
-    <a href="https://github.com/RephenSoss"> <img src="images/github.png" /> </a>
-    <a href="https://www.linkedin.com/in/stephen-ross-294b7364?trk=nav_responsive_tab_profile"> <img src="images/linked.png" /> </a>
-    <a href="https://www.facebook.com/stephen.ross.562329"> <img src="images/facebook.png" /> </a>
+    <a href="https://github.com/RephenSoss"> <img2 src="images/github.png" /> </a>
+    <a href="https://www.linkedin.com/in/stephen-ross-294b7364?trk=nav_responsive_tab_profile"> <img2 src="images/linked.png" /> </a>
+    <a href="https://www.facebook.com/stephen.ross.562329"> <img2 src="images/facebook.png" /> </a>
   </div>
 
 </footer>
+
+
 
 
 
